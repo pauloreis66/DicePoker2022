@@ -202,6 +202,7 @@
             // 
             // btnRolar
             // 
+            this.btnRolar.BackColor = System.Drawing.Color.YellowGreen;
             this.btnRolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRolar.Location = new System.Drawing.Point(95, 258);
             this.btnRolar.Margin = new System.Windows.Forms.Padding(2);
@@ -209,11 +210,12 @@
             this.btnRolar.Size = new System.Drawing.Size(164, 46);
             this.btnRolar.TabIndex = 3;
             this.btnRolar.Text = "ROLAR DADOS";
-            this.btnRolar.UseVisualStyleBackColor = true;
+            this.btnRolar.UseVisualStyleBackColor = false;
             this.btnRolar.Click += new System.EventHandler(this.btnRolar_Click);
             // 
             // btnExit
             // 
+            this.btnExit.BackColor = System.Drawing.Color.YellowGreen;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(466, 258);
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
@@ -221,7 +223,7 @@
             this.btnExit.Size = new System.Drawing.Size(164, 46);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "SAIR";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // groupBox1
@@ -261,12 +263,12 @@
             // 
             // txtOutput
             // 
-            this.txtOutput.Location = new System.Drawing.Point(22, 28);
+            this.txtOutput.Location = new System.Drawing.Point(14, 17);
             this.txtOutput.Margin = new System.Windows.Forms.Padding(2);
             this.txtOutput.Multiline = true;
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.ReadOnly = true;
-            this.txtOutput.Size = new System.Drawing.Size(294, 19);
+            this.txtOutput.Size = new System.Drawing.Size(343, 54);
             this.txtOutput.TabIndex = 0;
             // 
             // imgDados
